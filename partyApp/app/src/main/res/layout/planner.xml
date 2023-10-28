@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/square2" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="412dp"
+            android:layout_height="759dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/backGround" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/lobster"
+            android:gravity="center_horizontal"
+            android:text="Vamos a"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="30dp"
+
+            android:fontFamily="@font/economica"
+            android:text="PLANEAR"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="180dp"
+            android:src="@drawable/square2" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="354dp"
+            android:layout_height="336dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/square2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="265dp"
+
+            android:fontFamily="@font/economica"
+            android:text="¿a donde vamos?"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="130dp"
+
+            android:fontFamily="@font/economica"
+            android:text="¿cuantos van a parchar?"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="390dp"
+
+            android:fontFamily="@font/economica"
+            android:text="Elige una fecha"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="5dp" />
+
+        <CalendarView
+            android:id="@+id/calendarView2"
+            android:layout_width="308dp"
+            android:layout_height="302dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-190dp"
+            android:minDate="10/27/2023" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="174dp"
+            android:layout_marginTop="295dp"
+            android:src="@drawable/square" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="310dp"
+
+            android:fontFamily="@font/economica"
+            android:text="85"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="295dp"
+            android:src="@drawable/square" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="252dp"
+            android:layout_marginTop="310dp"
+
+            android:fontFamily="@font/economica"
+            android:text="modelia"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="295dp"
+            android:src="@drawable/square" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="310dp"
+
+            android:fontFamily="@font/economica"
+            android:text="chapi"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="160dp"
+            android:text="+"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="160dp"
+            android:text="-"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/cantidad"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="165dp"
+            android:ems="10"
+            android:inputType="number" />
+
+    </FrameLayout>
+</LinearLayout>
