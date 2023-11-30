@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:text="Haz de tu salida la mejor experiencia"
+            android:textSize="47.5dp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Planea tu salida"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/planeacita"
+            style="@style/MenuButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Bares y discos"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/iconobar"
+            style="@style/MenuButton"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:text="Proximos eventos"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/inconoevento"
+            style="@style/MenuButton"
+            />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

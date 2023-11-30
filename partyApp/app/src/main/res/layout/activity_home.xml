@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="412dp"
+            android:layout_height="759dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+
+        <EditText
+            android:id="@+id/contraRegEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="25dp"
+            android:hint="Contraseña"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/emailRegEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:hint="Email"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/crearButton"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#9C27B0"
+            android:text="Crear cuenta" />
+
+    </FrameLayout>
+
+</LinearLayout>
