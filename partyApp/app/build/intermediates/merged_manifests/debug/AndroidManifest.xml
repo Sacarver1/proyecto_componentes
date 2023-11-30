@@ -53,6 +53,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.partyapp.ui.theme.Modelo.HomeActivity" >
+
+            <!-- Puedes agregar más configuraciones aquí -->
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

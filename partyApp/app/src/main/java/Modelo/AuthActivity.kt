@@ -1,6 +1,5 @@
 package com.example.partyapp.ui.theme.Modelo
-import Modelo.HomeActivity
-import Modelo.ProviderType
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button

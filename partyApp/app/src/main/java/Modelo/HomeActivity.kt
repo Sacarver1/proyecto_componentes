@@ -1,4 +1,4 @@
-package Modelo
+package com.example.partyapp.ui.theme.Modelo
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.partyapp.R
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 
 enum class ProviderType{
@@ -18,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
+        FirebaseApp.initializeApp(this)
         val bundle = intent.extras
         val email= bundle?.getString("email")
         val contra = bundle?.getString("contraseña")
@@ -32,8 +33,6 @@ class HomeActivity : AppCompatActivity() {
 
         val crearButton = findViewById<Button>(R.id.crearButton)
 
-
-
         crearButton.setOnClickListener(){
 
             val email = emailEditText.text.toString()
@@ -43,17 +42,17 @@ class HomeActivity : AppCompatActivity() {
 
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, contra).addOnCompleteListener {
                     if(it.isSuccessful){
-                        setContentView(R.layout.activity_pantalla_inicio)
+
                         showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                        //setContentView(R.layout.activity_pantalla_inicio)
                     }else{
-                        Log.i("Pantalla Principal","Error de autenticación")
+                        Log.w("FirebaseAuth", "createUserWithEmail:failure",Throwable())
                         showAlert()
                     }
                 }
             }
             //FirebaseAuth.getInstance().signOut()
             //onBackPressed()
-
 
         }
 
