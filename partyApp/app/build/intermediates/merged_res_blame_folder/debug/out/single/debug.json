@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.example.partyapp-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_inconoevento.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/inconoevento.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/font_la_belle_aurore.xml.flat",
+        "source": "com.example.partyapp-main-6:/font/la_belle_aurore.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_background.png.flat",
+        "source": "com.example.partyapp-main-6:/drawable/background.png"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/font_lobster.ttf.flat",
+        "source": "com.example.partyapp-main-6:/font/lobster.ttf"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_icon3.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/icon3.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_square.png.flat",
+        "source": "com.example.partyapp-main-6:/drawable/square.png"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/layout_activity_segundavista.xml.flat",
+        "source": "com.example.partyapp-main-6:/layout/activity_segundavista.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/layout_bares.xml.flat",
+        "source": "com.example.partyapp-main-6:/layout/bares.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/font_economica.xml.flat",
+        "source": "com.example.partyapp-main-6:/font/economica.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_title.png.flat",
+        "source": "com.example.partyapp-main-6:/drawable/title.png"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/baseline_favorite_24.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/font_oregano.ttf.flat",
+        "source": "com.example.partyapp-main-6:/font/oregano.ttf"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_square2.png.flat",
+        "source": "com.example.partyapp-main-6:/drawable/square2.png"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.partyapp-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_bailarina1.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/bailarina1.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_musica2.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/musica2.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/layout_activity_pantalla_inicio.xml.flat",
+        "source": "com.example.partyapp-main-6:/layout/activity_pantalla_inicio.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_latino_logo.png.flat",
+        "source": "com.example.partyapp-main-6:/drawable/latino_logo.png"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_planeacita.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/planeacita.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/font_economica_bold.ttf.flat",
+        "source": "com.example.partyapp-main-6:/font/economica_bold.ttf"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_icon4.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/icon4.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.partyapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/layout_planner.xml.flat",
+        "source": "com.example.partyapp-main-6:/layout/planner.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.partyapp-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-4:/drawable_iconobar.xml.flat",
+        "source": "com.example.partyapp-main-6:/drawable/iconobar.xml"
+    }
+]

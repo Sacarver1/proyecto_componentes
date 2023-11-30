@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="412dp"
+            android:layout_height="759dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/backGround" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/economica_bold"
+            android:gravity="center_horizontal"
+            android:text="Latino Gang"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Tipo de música:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="350dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Horario:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Descargar carta:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Cover:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Aforo:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="550dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Reserva aquí:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/title9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/economica_bold"
+            android:text="Contacto:"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="149dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/latino_logo" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="220dp" />
+
+    </FrameLayout>
+</LinearLayout>
