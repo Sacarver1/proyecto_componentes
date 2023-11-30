@@ -1,10 +1,10 @@
-#Wed Nov 29 22:34:10 COT 2023
-base.0=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.4=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.5=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Thu Nov 30 11:33:13 COT 2023
+base.0=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.4=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=C\:\\Users\\Jhana\\Desktop\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex
