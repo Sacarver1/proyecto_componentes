@@ -19,7 +19,7 @@
             android:layout_width="412dp"
             android:layout_height="759dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/backGround" />
+            android:src="@drawable/background" />
 
         <TextView
             android:id="@+id/title"

@@ -27,5 +27,24 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">PartyApp</string>
+<<<<<<< HEAD
+=======
+    <string name="gcm_defaultSenderId" translatable="false">836844460203</string>
+    <string name="google_api_key" translatable="false">AIzaSyBk9WmTsFpKeqna3nvCWonLKPdMpNbmhqg</string>
+    <string name="google_app_id" translatable="false">1:836844460203:android:a123abcb16212051bc7fee</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBk9WmTsFpKeqna3nvCWonLKPdMpNbmhqg</string>
+    <string name="google_storage_bucket" translatable="false">partyapp-76220.appspot.com</string>
+    <string name="project_id" translatable="false">partyapp-76220</string>
+    <style name="MenuButton" parent="@style/Widget.AppCompat.Button.Colored">
+
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+    </style>
+>>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
     <style name="Theme.PartyApp" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

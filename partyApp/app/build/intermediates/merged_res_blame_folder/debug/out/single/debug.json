@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "com.example.partyapp-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.partyapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -154,5 +155,165 @@
     {
         "merged": "com.example.partyapp-merged_res-4:/drawable_iconobar.xml.flat",
         "source": "com.example.partyapp-main-6:/drawable/iconobar.xml"
+=======
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_inconoevento.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\inconoevento.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\font_economica_bold.ttf.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\font\\economica_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_square.png.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\square.png"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_activity_pantalla_inicio.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\activity_pantalla_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_iconobar.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\iconobar.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_background.PNG.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\background.PNG"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_activity_auth.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_planeacita.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\planeacita.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_activity_segundavista.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\activity_segundavista.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_planner.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\planner.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_icon4.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\icon4.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\font_oregano.ttf.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\font\\oregano.ttf"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\font_economica.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\font\\economica.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_icon3.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\icon3.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_latino_logo.png.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\latino_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\layout_bares.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\layout\\bares.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_musica2.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\musica2.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_square2.png.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\square2.png"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\drawable_bailarina1.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\drawable\\bailarina1.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\font_lobster.ttf.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\font\\lobster.ttf"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\font_la_belle_aurore.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\font\\la_belle_aurore.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.partyapp-merged_res-58:/layout_activity_auth.xml.flat",
+        "source": "com.example.partyapp-main-60:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rick\\.gradle\\daemon\\8.0\\com.example.partyapp-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+>>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
     }
 ]
