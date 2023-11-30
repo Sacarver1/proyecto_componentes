@@ -43,5 +43,5 @@
         <item name="android:layout_marginTop">20dp</item>
 
     </style>
-    <style name="Theme.PartyApp" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.PartyApp" parent="Theme.AppCompat.Light.NoActionBar"/>
 </resources>

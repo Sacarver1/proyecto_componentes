@@ -22,7 +22,7 @@
             android:layout_marginTop="80dp"
             android:layout_marginRight="25dp"
             android:hint="Contraseña"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:textColorHint="@android:color/holo_orange_light"
             android:textSize="15sp" />
 
@@ -34,7 +34,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="25dp"
             android:hint="Email"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:textColor="@color/white"
             android:textColorHint="@android:color/holo_orange_light"
             android:textSize="15sp" />

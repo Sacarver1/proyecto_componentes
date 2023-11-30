@@ -26,6 +26,7 @@ drawable musica2
 drawable planeacita
 drawable square
 drawable square2
+drawable title
 font economica
 font economica_bold
 font la_belle_aurore
@@ -36,6 +37,7 @@ id cantidad
 id contraEditText
 id contraRegEditText
 id crearButton
+id crearButtonWelcome
 id emailEditText
 id emailRegEditText
 id imageButton

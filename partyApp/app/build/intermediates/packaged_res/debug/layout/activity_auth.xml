@@ -71,7 +71,7 @@
             android:text="Iniciar sesion" />
 
         <Button
-            android:id="@+id/crearButton"
+            android:id="@+id/crearButtonWelcome"
             android:layout_width="196dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
