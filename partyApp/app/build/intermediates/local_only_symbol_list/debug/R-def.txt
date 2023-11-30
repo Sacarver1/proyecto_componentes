@@ -26,28 +26,20 @@ drawable musica2
 drawable planeacita
 drawable square
 drawable square2
-<<<<<<< HEAD
 drawable title
-=======
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 font economica
 font economica_bold
 font la_belle_aurore
 font lobster
 font oregano
-<<<<<<< HEAD
-id btn_go_to_menu
-id calendarView2
-id cantidad
-=======
 id calendarView2
 id cantidad
 id contraEditText
 id contraRegEditText
 id crearButton
+id crearButtonWelcome
 id emailEditText
 id emailRegEditText
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 id imageButton
 id imageButton2
 id imageButton3
@@ -59,10 +51,7 @@ id imageView8
 id minus
 id plus
 id ratingBar
-<<<<<<< HEAD
-=======
 id singUpButton
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 id textView10
 id textView2
 id textView4
@@ -79,12 +68,8 @@ id title6
 id title7
 id title8
 id title9
-<<<<<<< HEAD
-layout activity_main
-=======
 layout activity_auth
 layout activity_home
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 layout activity_pantalla_inicio
 layout activity_segundavista
 layout bares
@@ -92,8 +77,6 @@ layout planner
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-<<<<<<< HEAD
-=======
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -101,7 +84,6 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
 style MenuButton
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 style Theme.PartyApp
 xml backup_rules
 xml data_extraction_rules

@@ -35,7 +35,7 @@ class AuthActivity : AppCompatActivity() {
         val signUpButton = findViewById<Button>(R.id.singUpButton) // o R.id.signUpButton, según tu XML
         val emailEditText = findViewById<EditText>(R.id.emailRegEditText)
         val contraEditText = findViewById<EditText>(R.id.contraRegEditText)
-        val crearButton = findViewById<Button>(R.id.crearButton)
+        val crearButtonWelcome = findViewById<Button>(R.id.crearButtonWelcome)
 
         signUpButton.setOnClickListener {
             val email = emailEditText.text.toString()
@@ -53,8 +53,8 @@ class AuthActivity : AppCompatActivity() {
         }
 
 
-        crearButton.setOnClickListener {
-            val email = emailEditText.text.toString()
+        crearButtonWelcome.setOnClickListener {
+            /*val email = emailEditText.text.toString()
             val password = contraEditText.text.toString()
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
@@ -66,7 +66,9 @@ class AuthActivity : AppCompatActivity() {
                         showAlert()
                     }
                 }
-            }
+            }*/
+
+            setContentView(R.layout.activity_home)
         }
     }
 

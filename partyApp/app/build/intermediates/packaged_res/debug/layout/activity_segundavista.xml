@@ -5,11 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".MainActivity">
-=======
     tools:context=".ui.theme.Modelo.AuthActivity">
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399
 
     <LinearLayout
         android:layout_width="match_parent"

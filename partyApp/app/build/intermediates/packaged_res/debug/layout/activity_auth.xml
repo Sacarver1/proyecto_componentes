@@ -66,24 +66,18 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-<<<<<<< HEAD:partyApp/app/src/main/res/layout/activity_main.xml
-            android:layout_marginRight="25dp">
-            
-        </Button>
-=======
             android:layout_marginRight="25dp"
             android:backgroundTint="#FFEB3B"
             android:text="Iniciar sesion" />
 
         <Button
-            android:id="@+id/crearButton"
+            android:id="@+id/crearButtonWelcome"
             android:layout_width="196dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:backgroundTint="#9C27B0"
             android:text="Crear cuenta" />
->>>>>>> 67e854dc1b5ab0d86a427804f8b2901bf35c7399:partyApp/app/build/intermediates/packaged_res/debug/layout/activity_auth.xml
 
         <TextView
             android:layout_width="match_parent"
