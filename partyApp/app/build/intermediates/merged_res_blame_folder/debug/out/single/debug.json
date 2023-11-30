@@ -4,8 +4,8 @@
         "source": "C:\\Users\\July\\.gradle\\daemon\\8.0\\com.example.partyapp-main-7:\\drawable\\inconoevento.xml"
     },
     {
-        "merged": "com.example.partyapp-merged_res-5:/layout_activity_home.xml.flat",
-        "source": "com.example.partyapp-main-7:/layout/activity_home.xml"
+        "merged": "com.example.partyapp-merged_res-5:/layout_activity_auth.xml.flat",
+        "source": "com.example.partyapp-main-7:/layout/activity_auth.xml"
     },
     {
         "merged": "C:\\Users\\July\\.gradle\\daemon\\8.0\\com.example.partyapp-merged_res-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

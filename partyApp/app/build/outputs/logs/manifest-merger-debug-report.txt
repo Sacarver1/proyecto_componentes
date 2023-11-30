@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\July\.gradle\caches\transforms-3\cc2176e9699a8ad6c862313b9857c80c\transformed\firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\July\.gradle\caches\transforms-3\0829985e8ddfeff38ef562c34f8ab1f8\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:2:1-17:12
@@ -105,8 +105,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\July\.gradle\caches\transforms
 	xmlns:android
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-33:19
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-34:24
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-34:24
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\July\.gradle\caches\transforms-3\cc2176e9699a8ad6c862313b9857c80c\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19

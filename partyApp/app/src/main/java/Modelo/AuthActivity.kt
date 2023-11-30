@@ -8,8 +8,10 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.partyapp.R
+import com.google.firebase.FirebaseApp
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import java.security.Provider
 
 class AuthActivity : AppCompatActivity() {
@@ -24,6 +26,7 @@ class AuthActivity : AppCompatActivity() {
         val bundle = Bundle()
         bundle.putString("message", "integración de firebase completa")
         analytics.logEvent("InitScreen", bundle)
+        FirebaseApp.initializeApp(this)
 
         setup()
 
@@ -33,40 +36,36 @@ class AuthActivity : AppCompatActivity() {
         title = "Autenticación"
 
         val signUpButton = findViewById<Button>(R.id.singUpButton) // o R.id.signUpButton, según tu XML
-        val emailEditText = findViewById<EditText>(R.id.emailRegEditText)
-        val contraEditText = findViewById<EditText>(R.id.contraRegEditText)
+        val emailEditText = findViewById<EditText>(R.id.emailEditText)
+        val contraEditText = findViewById<EditText>(R.id.contraEditText)
         val crearButtonWelcome = findViewById<Button>(R.id.crearButtonWelcome)
 
         signUpButton.setOnClickListener {
             val email = emailEditText.text.toString()
             val password = contraEditText.text.toString()
 
-            if (email.isNotEmpty() && password.isNotEmpty()) {
-                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).addOnCompleteListener{
-                     if(it.isSuccessful){
-                        showHome(it.result?.user?.email?:"", ProviderType.BASIC)
-                     }else{
-                        showAlert()
-                     }
-                 }
-            }
+            FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
+
+                        setContentView(R.layout.activity_pantalla_inicio)
+                      //  showHome(email, ProviderType.BASIC)
+                    } else {
+
+                        if (task.exception is FirebaseAuthUserCollisionException) {
+
+                            //showAlert("El usuario ya existe")
+                        } else {
+                            //showAlert("Error al crear el usuario")
+                        }
+                    }
+                }
         }
 
 
+
+
         crearButtonWelcome.setOnClickListener {
-            /*val email = emailEditText.text.toString()
-            val password = contraEditText.text.toString()
-
-            if (email.isNotEmpty() && password.isNotEmpty()) {
-
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener{
-                    if(it.isSuccessful){
-                        showHome(it.result?.user?.email?:"", ProviderType.BASIC)
-                    }else{
-                        showAlert()
-                    }
-                }
-            }*/
 
             setContentView(R.layout.activity_home)
         }

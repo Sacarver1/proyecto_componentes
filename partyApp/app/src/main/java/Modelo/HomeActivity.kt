@@ -32,27 +32,27 @@ class HomeActivity : AppCompatActivity() {
 
         val crearButton = findViewById<Button>(R.id.crearButton)
 
-        val email = emailEditText.text.toString()
-        val contra = contraEditText.text.toString()
+
 
         crearButton.setOnClickListener(){
+
             val email = emailEditText.text.toString()
             val contra = contraEditText.text.toString()
 
             if (email.isNotEmpty() && contra.isNotEmpty()) {
 
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(email, contra).addOnCompleteListener{
+                FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, contra).addOnCompleteListener {
                     if(it.isSuccessful){
                         setContentView(R.layout.activity_pantalla_inicio)
-                        showHome(it.result?.user?.email?:"", ProviderType.BASIC)
+                        showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
                     }else{
                         Log.i("Pantalla Principal","Error de autenticación")
                         showAlert()
                     }
                 }
             }
-            FirebaseAuth.getInstance().signOut()
-            onBackPressed()
+            //FirebaseAuth.getInstance().signOut()
+            //onBackPressed()
 
 
         }
