@@ -27,6 +27,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
+        android:enableOnBackInvokedCallback="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -54,8 +55,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.partyapp.ui.theme.Modelo.HomeActivity" >
-
-            <!-- Puedes agregar más configuraciones aquí -->
         </activity>
 
         <service

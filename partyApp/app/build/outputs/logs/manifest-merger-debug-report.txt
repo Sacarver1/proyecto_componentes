@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\July\.gradle\caches\transforms-3\cc2176e9699a8ad6c862313b9857c80c\transformed\firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\July\.gradle\caches\transforms-3\0829985e8ddfeff38ef562c34f8ab1f8\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:2:1-17:12
@@ -105,8 +105,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\July\.gradle\caches\transforms
 	xmlns:android
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-36:24
-INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-36:24
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-37:24
+INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:5:5-37:24
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\July\.gradle\caches\transforms-3\0e6c8274e285b7a282e5166467572a4d\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\July\.gradle\caches\transforms-3\cc2176e9699a8ad6c862313b9857c80c\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
@@ -180,51 +180,53 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\July\.gradle\cache
 	android:roundIcon
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:15:9-29
 	android:icon
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:13:9-46
+	android:enableOnBackInvokedCallback
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:14:9-51
 	android:dataExtractionRules
 		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:7:9-65
 meta-data#com.google.android.actions
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:15:9-17:56
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:16:9-18:56
 	android:resource
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:17:13-53
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:18:13-53
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:17:13-54
 meta-data#preloaded_fonts
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:18:9-20:57
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:19:9-21:57
 	android:resource
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:20:13-54
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:21:13-54
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:19:13-43
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:20:13-43
 activity#com.example.partyapp.ui.theme.Modelo.AuthActivity
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:22:9-32:20
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:23:9-33:20
 	android:label
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:26:13-45
 	android:exported
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:25:13-36
 	android:theme
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:27:13-50
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:23:13-57
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:24:13-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.example.partyapp.ui.theme.Modelo.HomeActivity
-ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:33:9-35:20
+ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:34:9-36:20
 	android:name
-		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:33:19-63
+		ADDED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml:34:19-63
 uses-sdk
 INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\PROYECTO_COMPONENTES\proyecto_componentes\partyApp\app\src\main\AndroidManifest.xml

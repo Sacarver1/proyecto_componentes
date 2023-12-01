@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<<<<<<< HEAD
+
     <style name="Theme.PartyApp" parent="Theme.AppCompat.Light.NoActionBar" />
 
-=======
-    <style name="Theme.PartyApp" parent="android:Theme.Material.Light.NoActionBar" />
->>>>>>> 8ba74aa954747d5cee83c90953527c75d2d32368
+
     <style name="MenuButton" parent="@style/Widget.AppCompat.Button.Colored">
 
         <item name="android:layout_height">70dp</item>

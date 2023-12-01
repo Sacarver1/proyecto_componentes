@@ -5,11 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD:partyApp/app/src/main/res/layout/activity_auth.xml
     tools:context=".ui.theme.Modelo.AuthActivity">
-=======
-    tools:ignore="MissingClass">
->>>>>>> 8ba74aa954747d5cee83c90953527c75d2d32368:partyApp/app/src/main/res/layout/activity_main.xml
 
     <LinearLayout
         android:layout_width="match_parent"

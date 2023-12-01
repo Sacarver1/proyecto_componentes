@@ -53,7 +53,7 @@ class AuthActivity : AppCompatActivity() {
 
                         if (task.exception is FirebaseAuthUserCollisionException) {
 
-                            //showAlert("El usuario ya existe")
+                            showAlert()
                         } else {
                             //showAlert("Error al crear el usuario")
                         }

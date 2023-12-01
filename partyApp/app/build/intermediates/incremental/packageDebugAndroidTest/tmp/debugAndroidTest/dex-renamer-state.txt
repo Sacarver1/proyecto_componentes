@@ -1,4 +1,4 @@
-#Wed Nov 29 21:36:08 COT 2023
+#Thu Nov 30 22:20:07 COT 2023
 base.0=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\PROYECTO_COMPONENTES\\proyecto_componentes\\partyApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\1\\classes.dex

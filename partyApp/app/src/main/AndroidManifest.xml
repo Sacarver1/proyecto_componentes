@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PartyApp"
+        android:enableOnBackInvokedCallback="true"
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.actions"
@@ -31,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.theme.Modelo.HomeActivity">
-            <!-- Puedes agregar más configuraciones aquí -->
+
         </activity>
          </application>
 
