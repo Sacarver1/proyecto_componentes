@@ -42,9 +42,7 @@ class HomeActivity : AppCompatActivity() {
         val btnNuevaNotificacion = findViewById<Button>(R.id.btnNuevaNotificacion)
         val crearButton = findViewById<Button>(R.id.crearButton)
 
-        btnNuevaNotificacion.setOnClickListener{
-            createNotificationChanel()
-        }
+
         crearButton.setOnClickListener(){
 
             val email = emailEditText.text.toString()
