@@ -66,7 +66,8 @@ class AuthActivity : AppCompatActivity() {
 
         crearButtonWelcome.setOnClickListener {
 
-            setContentView(R.layout.activity_home)
+            val registro = Intent(this,HomeActivity::class.java)
+            startActivity(registro)
         }
     }
 

@@ -10,23 +10,31 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.partyapp.R
 import com.google.firebase.FirebaseApp
+import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 
 enum class ProviderType{
     BASIC
 }
 class HomeActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        val analytics = FirebaseAnalytics.getInstance(this)
+        val bundle = Bundle()
+        bundle.putString("message", "integración de firebase completa")
+        analytics.logEvent("InitScreen", bundle)
         FirebaseApp.initializeApp(this)
-        val bundle = intent.extras
-        val email= bundle?.getString("email")
-        val contra = bundle?.getString("contraseña")
-        setup(email?:"",contra?:"")
+        setup()
+        //val bundle = intent.extras
+        //val email= bundle?.getString("email")
+        //val password = bundle?.getString("password")
+
+
     }
 
-    private fun setup(email: String, provider: String){
+    private fun setup(){
         title="inicio"
         val emailEditText = findViewById<EditText>(R.id.emailRegEditText)
         val contraEditText = findViewById<EditText>(R.id.contraRegEditText)
@@ -36,18 +44,20 @@ class HomeActivity : AppCompatActivity() {
         crearButton.setOnClickListener(){
 
             val email = emailEditText.text.toString()
-            val contra = contraEditText.text.toString()
+            val password = contraEditText.text.toString()
 
-            if (email.isNotEmpty() && contra.isNotEmpty()) {
+            if (email.isNotEmpty() && password.isNotEmpty()) {
 
-                FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, contra).addOnCompleteListener {
+                FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).addOnCompleteListener {
                     if(it.isSuccessful){
 
                         showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
                         //setContentView(R.layout.activity_pantalla_inicio)
+                        Log.w("FirebaseAuth", "createUserWithEmailAndPassword succesfull: ${it.exception}", it.exception)
                     }else{
-                        Log.w("FirebaseAuth", "createUserWithEmail:failure",Throwable())
+                        Log.w("FirebaseAuth", "createUserWithEmailAndPassword failed: ${it.exception}", it.exception)
                         showAlert()
+
                     }
                 }
             }
