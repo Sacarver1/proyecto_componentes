@@ -23,6 +23,7 @@ drawable iconobar
 drawable inconoevento
 drawable latino_logo
 drawable musica2
+drawable notificacion
 drawable planeacita
 drawable square
 drawable square2
@@ -32,6 +33,7 @@ font economica_bold
 font la_belle_aurore
 font lobster
 font oregano
+id btnNuevaNotificacion
 id calendarView2
 id cantidad
 id contraEditText
@@ -73,6 +75,7 @@ layout activity_home
 layout activity_pantalla_inicio
 layout activity_segundavista
 layout bares
+layout notificaciones
 layout planner
 mipmap ic_launcher
 mipmap ic_launcher_round

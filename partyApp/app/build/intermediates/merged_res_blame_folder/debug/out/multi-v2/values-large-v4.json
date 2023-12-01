@@ -4,6 +4,23 @@
             "outputFile": "com.example.partyapp-mergeDebugResources-3:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\July\\.gradle\\caches\\transforms-3\\01ddcbdf1dc2926e409607239c7b5026\\transformed\\material-1.2.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
+                {
                     "source": "C:\\Users\\July\\.gradle\\caches\\transforms-3\\124ba001a2c170374e6eee3c506cbb3f\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",

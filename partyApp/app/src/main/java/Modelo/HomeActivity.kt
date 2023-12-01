@@ -12,6 +12,7 @@ import com.example.partyapp.R
 import com.google.firebase.FirebaseApp
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
+import com.example.partyapp.ui.theme.Modelo.AuthActivity
 
 enum class ProviderType{
     BASIC
@@ -38,9 +39,12 @@ class HomeActivity : AppCompatActivity() {
         title="inicio"
         val emailEditText = findViewById<EditText>(R.id.emailRegEditText)
         val contraEditText = findViewById<EditText>(R.id.contraRegEditText)
-
+        val btnNuevaNotificacion = findViewById<Button>(R.id.btnNuevaNotificacion)
         val crearButton = findViewById<Button>(R.id.crearButton)
 
+        btnNuevaNotificacion.setOnClickListener{
+            createNotificationChanel()
+        }
         crearButton.setOnClickListener(){
 
             val email = emailEditText.text.toString()
